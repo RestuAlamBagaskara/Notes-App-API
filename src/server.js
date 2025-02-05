@@ -31,7 +31,7 @@ const uploads = require('./api/uploads');
 const StorageService = require('./services/storage/storageService');
 const UploadsValidator = require('./validator/uploads');
 // cache
-const CacheService = require('./services/redis/CacheService');
+const CacheService = require('./services/redis/cacheService');
 
 const init = async () => {
   const cacheService = new CacheService();
